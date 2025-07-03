@@ -17,4 +17,9 @@
             android:layout_width="96dp"
             android:layout_height="109dp" app:srcCompat="@android:drawable/btn_star_big_on"
             android:id="@+id/imageView2" tools:layout_editor_absoluteY="207dp" tools:layout_editor_absoluteX="157dp"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="601dp"
+            tools:layout_editor_absoluteX="154dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
