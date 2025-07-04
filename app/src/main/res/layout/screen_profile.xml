@@ -1,30 +1,99 @@
+<! --New update design of Sceen profile JRD Jul-04-2025--!>!
+
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                                    xmlns:app="http://schemas.android.com/apk/res-auto"
-                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-                                                   android:layout_height="match_parent">
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent" android:id="@+id/nameNewUser"
+                                                   android:backgroundTint="#3FB5AF" android:contextClickable="false"
+                                                   android:animateLayoutChanges="true"
+                                                   android:alwaysDrawnWithCache="true"
+                                                   android:background="@color/white" android:focusable="auto">
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="AL DIA"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+    <EditText
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txtReenterNewPassword"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="571dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="270dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="40dp" android:layout_marginEnd="41dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" android:id="@+id/clickCounter2"
-            app:layout_constraintVertical_bias="0.481"/>
+            android:textStyle="italic"
+            android:text="'@string/email_subject_label"
+            android:labelfor="'@id/email_subject"/>
     <ImageView
-            android:layout_width="96dp"
-            android:layout_height="109dp" app:srcCompat="@android:drawable/btn_star_big_on"
-            android:id="@+id/imageView2" tools:layout_editor_absoluteY="207dp" tools:layout_editor_absoluteX="157dp"/>
+            android:layout_width="138dp"
+            android:layout_height="135dp" app:srcCompat="@drawable/foto_prueba"
+            android:id="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="180dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="576dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="136dp" android:layout_marginEnd="137dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/txtNewUserName"
+            android:text="Nombre Completo"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="389dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="460dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="40dp"
+            android:layout_marginEnd="51dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="204dp"
+            android:layout_height="33dp" android:id="@+id/textViewRegistroDeCuenta"
+            tools:text="Registro de Cuenta" android:textAllCaps="false"
+            android:textSize="24sp" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="335dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="523dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="103dp"
+            android:layout_marginEnd="104dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+            android:layout_width="326dp"
+            android:layout_height="48dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/txtNewUserEmail"
+            android:text="Correo Electrónico"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="450dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="395dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="41dp"
+            android:layout_marginEnd="44dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+            android:layout_width="327dp"
+            android:layout_height="48dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txtNewPassword"
+            android:autoText="false" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="510dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="339dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="40dp" android:layout_marginEnd="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:typeface="normal" android:textStyle="italic"
+            android:text="'@string/Enter_new_password"
+            android:labelfor="'@id/email_subject"/>
     <Button
-            android:text="Button"
+            android:text="Crear Cuenta"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="601dp"
-            tools:layout_editor_absoluteX="154dp"/>
+            android:layout_height="wrap_content" android:id="@+id/btnCreateAccount"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="684dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="159dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="41dp"
+            android:layout_marginEnd="238dp" app:layout_constraintEnd_toEndOf="parent"/>
     <Button
-            android:text="Button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/button2" tools:layout_editor_absoluteY="99dp"
-            tools:layout_editor_absoluteX="100dp"/>
+            android:text="Cancelar"
+            android:layout_width="118dp"
+            android:layout_height="48dp" android:id="@+id/btnCancelNewAccount"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="684dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="160dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="249dp" android:layout_marginEnd="44dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
