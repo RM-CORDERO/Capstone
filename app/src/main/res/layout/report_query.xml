@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:foregroundTint="#1F1E1E">
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="378dp"
+            android:layout_height="64dp"
+            android:hint="Ej. Cambio de Aceite de Motor"
+            android:id="@+id/editText2" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="224dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="603dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginEnd="17dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Costo"
+            android:layout_width="334dp"
+            android:layout_height="40dp" android:id="@+id/txtMaintenanceDetails5"
+            android:textSize="20sp" android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="532dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="319dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginEnd="61dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Compañía"
+            android:layout_width="334dp"
+            android:layout_height="40dp" android:id="@+id/txtMaintenanceDetails4"
+            android:textSize="20sp" android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="412dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="439dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginEnd="61dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Fecha de Servicio"
+            android:layout_width="334dp"
+            android:layout_height="42dp" android:id="@+id/txtMaintenanceDetails3"
+            android:textSize="20sp" android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="302dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="547dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginEnd="61dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Tipo de Mantenimiento/Reparación"
+            android:layout_width="328dp"
+            android:layout_height="50dp" android:id="@+id/txtMaintenanceDetails2"
+            android:textSize="20sp" android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="160dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="681dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginEnd="67dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <Button
+            android:text="Subir Recibo de Servicio"
+            android:layout_width="324dp"
+            android:layout_height="72dp" android:id="@+id/btnUploadReceipt"
+            android:textSize="24sp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="686dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="133dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="40dp" android:layout_marginEnd="47dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <Button
+            android:text="Guardar Mantenimiento"
+            android:layout_width="324dp"
+            android:layout_height="72dp" android:id="@+id/btnSaveMaintenance"
+            android:textSize="24sp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="778dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="49dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="40dp" android:layout_marginEnd="41dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="Detalles de Mantenimiento"
+            android:layout_width="330dp"
+            android:layout_height="58dp" android:id="@+id/txtMaintenanceDetails"
+            android:textSize="24sp" android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="72dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="761dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginEnd="65dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="378dp"
+            android:layout_height="48dp"
+            android:hint="MM-DD-YYYY" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="352dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="493dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginEnd="17dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="372dp"
+            android:layout_height="48dp"
+            android:hint="Ej. Quick Lube "
+            android:id="@+id/editText" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="464dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="379dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginEnd="23dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="372dp"
+            android:layout_height="60dp"
+            android:hint="$" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="586dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="245dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginEnd="23dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
